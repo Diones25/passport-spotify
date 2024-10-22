@@ -1,0 +1,20 @@
+{
+  "name": "passport-spotify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "consolidate": "^1.0.4",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-spotify": "^2.0.0"
+  }
+}

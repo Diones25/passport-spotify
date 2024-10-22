@@ -1,0 +1,9 @@
+
+<% if(!user) { %>
+  <h2>Welcome! Please log in.</h2>
+	<p><a href="/login">login</a></p>
+<%} else { %>
+  <h2>Olá, <%= user.profile.username %></h2>
+	<p>Seu email é <%= user.profile.emails[0].value %></p>
+  
+<% } %>
